@@ -166,6 +166,8 @@ function createSTLWorld(canvas: HTMLCanvasElement): STLWorld {
  */
 @customElement("stl-viewer")
 export class STLViewer extends LitElement {
+  static shadowRootOptions = { ...LitElement.shadowRootOptions, mode: "closed" as const };
+
   @property({ type: String })
   src = "";
 
