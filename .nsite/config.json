@@ -1,0 +1,22 @@
+{
+  "relays": [
+    "wss://nos.lol",
+    "wss://relay.primal.net",
+    "wss://relay.damus.io",
+    "wss://relay.nostr.band"
+  ],
+  "servers": [
+    "https://cdn.hzrd149.com",
+    "https://nostr.download",
+    "https://blossom.primal.net"
+  ],
+  "profile": {
+    "name": "stl-viewer",
+    "display_name": "stl-viewer",
+    "about": "A simple web app and web component for viewing stl files"
+  },
+  "publishProfile": true,
+  "publishRelayList": true,
+  "publishServerList": true,
+  "fallback": "index.html"
+}
