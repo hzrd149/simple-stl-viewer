@@ -95,10 +95,10 @@ The viewer can be embedded in any web page using the `<stl-viewer>` web componen
 
 #### Installation
 
-Include the `previewer.js` file in your HTML:
+Include the `component.js` file in your HTML:
 
 ```html
-<script type="module" src="https://your-domain.com/previewer.js"></script>
+<script type="module" src="https://hzrd149.github.io/simple-stl-viewer/component.js"></script>
 ```
 
 #### Basic Usage
@@ -140,7 +140,7 @@ Or disable auto-resize to use fixed dimensions:
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>STL Viewer Demo</title>
-    <script type="module" src="https://your-domain.com/previewer.js"></script>
+    <script type="module" src="https://hzrd149.github.io/simple-stl-viewer/component.js"></script>
   </head>
   <body>
     <h1>My 3D Model</h1>
